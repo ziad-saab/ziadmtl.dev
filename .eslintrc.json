@@ -1,3 +1,16 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["prettier"],
+  "extends": ["next/core-web-vitals", "airbnb-typescript", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/jsx-indent": [2, 2, {
+      "checkAttributes": true,
+      "indentLogicalExpressions": true
+    }],
+    "react/jsx-max-props-per-line": [2, {"when": "multiline"}],
+    "react/jsx-indent-props": [2, 2],
+    "react/jsx-closing-bracket-location": "error"
+  }
 }

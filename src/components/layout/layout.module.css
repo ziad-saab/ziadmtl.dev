@@ -1,0 +1,9 @@
+.wrapper {
+  min-height: 85vh;
+}
+.footer {
+  li {
+    @apply bg-slate-50 text-black font-medium mr-2 mb-2 px-1;
+    width: min-content;
+  }
+}
