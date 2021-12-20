@@ -14,7 +14,7 @@ export const BlogPost = ({ post }: BlogPostProps) => {
   }, []);
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-4xl mx-auto">
       <h1 className="text-2xl lg:text-5xl">{post.title}</h1>
       <p className="text-gray-400">{post.date}</p>
       {

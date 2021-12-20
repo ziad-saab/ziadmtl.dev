@@ -9,6 +9,7 @@ export interface PostData {
   description: string;
   cover: string;
   date: string;
+  draft?: boolean;
 }
 
 const postsDirectory = join(process.cwd(), '_posts');
@@ -37,7 +38,7 @@ export function getAllPosts() {
   const slugs = getPostSlugs();
   const posts = slugs
     .map((slug) => getPostBySlug(slug))
-    .filter((post) => !!post)
+    .filter((post) => !post.draft)
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
