@@ -66,7 +66,7 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
           </figcaption>
         </section>
         <section className="prose max-w-none">
-          <h2>Check out my latest articles</h2>
+          <h2>Check out my latest posts</h2>
           <ul>
             {
               posts.map(post => (
