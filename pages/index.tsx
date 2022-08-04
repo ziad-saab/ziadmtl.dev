@@ -27,9 +27,12 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
             <h2 className="mb-1">Ziad Saab</h2>
             <p role="doc-subtitle">Fullstack Dev & Teacher 🔥</p>
             <p className="my-4">
-              I&apos;m a fullstack dev and teacher from Montreal,
-              Canada 🇨🇦
-              <br />I have lots of experience, and so much to learn 🤓
+              I&apos;m a fullstack dev from Montreal,
+              Canada 🇨🇦 I have lots of experience, and so much to learn 🤓
+            </p>
+            <p className="my-4">
+              My hobbies include going on motorcycle road-trips 🏍, flying
+              a paramotor 🪂, camping 🏕, and hiking 🥾
             </p>
             <p className="my-4">
               I co-founded Montreal&apos;s first fullstack web development
