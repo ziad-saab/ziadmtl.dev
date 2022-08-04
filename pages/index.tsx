@@ -19,7 +19,7 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
           <figure className="sm:flex-1 sm:mr-2">
             <Image
               src={profilePic}
-              alt="Ziad Saab"
+              alt="Ziad Saab at Code In The Dark Montreal"
               placeholder="blur"
             />
           </figure>
