@@ -7,7 +7,7 @@ date: "2019-01-16"
  
 <div class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
   <p class="font-bold">Note!</p>
-  <p>Since this tutorial was written, Next.js has evolved tremendously. Many of the instructions in here are outdated and have been replaced by newer and better ways. Check out <a href="https://github.com/ziad-saab/fullstack-consultant" target="_blank" rel="noopener noreferrer">fullstack-consultant on GitHub</a> for a modern approach to creating a blog with Next.js.</p>
+  <p>Since this tutorial was written, Next.js has evolved tremendously. Many of the instructions in here are outdated and have been replaced by newer and better ways. Check out <a href="https://github.com/ziad-saab/ziadmtl.dev" target="_blank" rel="noopener noreferrer">ziadmtl.dev on GitHub</a> for a modern approach to creating a blog with Next.js.</p>
 </div>
 
 ## Introduction

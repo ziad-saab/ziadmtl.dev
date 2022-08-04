@@ -23,18 +23,16 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
               placeholder="blur"
             />
           </figure>
-          <figcaption className="mt-2 sm:mt-0 sm:flex-1 sm:ml-2 prose">
+          <figcaption className="mt-2 sm:mt-0 sm:flex-1 sm:ml-2 prose dark:prose-invert">
             <h2 className="mb-1">Ziad Saab</h2>
-            <p role="doc-subtitle">Fullstack Consultant 🔥</p>
+            <p role="doc-subtitle">Fullstack Dev & Teacher 🔥</p>
             <p className="my-4">
-              I am a software developer and educator from Montreal,
-              Canada with over twenty years of experience. I have worked
-              for startups, agencies, and large companies in industries
-              ranging from entertainment to banking.
+              I&apos;m a fullstack dev and teacher from Montreal,
+              Canada 🇨🇦. I have lots of experience, and so much to learn 🤓
             </p>
             <p className="my-4">
-              Among my most notable achievements, I co-founded Montreal&apos;s
-              first full-stack web development bootcamp,{' '}
+              I co-founded Montreal&apos;s first fullstack web development
+              bootcamp,{' '}
               <a
                 className="font-semibold underline"
                 target="_blank"
@@ -56,18 +54,17 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
             <p className="my-4">
               I often get asked which technologies I work with. While I&apos;ve
               spent the last few years specializing in NodeJS, Postgres, React,
-              TypeScript, and Firebase, as well as the ecosystems surrounding
-              these technologies, I&apos;ll use whatever technology or technologies
-              are necessary to bring your project to completion.
+              TypeScript, Firebase, and more recently Web3, I&apos;ll use any
+              technologies necessary to achieve your goals.
             </p>
             <p className="my-4">
               Looking forward to working together 🚀
             </p>
           </figcaption>
         </section>
-        <section className="prose max-w-none">
+        <section className="prose dark:prose-invert max-w-none">
           <h2>Check out my latest posts</h2>
-          <ul>
+          <ul className="list-none">
             {
               posts.map(post => (
                 <li key={post.slug}>

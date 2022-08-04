@@ -1,5 +1,5 @@
 import '~/styles/globals.css';
-import 'highlight.js/styles/rainbow.css';
+import 'highlight.js/styles/monokai-sublime.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useGtagTracking } from '~/lib/useGtagTracking';

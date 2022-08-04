@@ -45,8 +45,8 @@ const Cv: NextPage = () => {
   return (
     <Layout
       meta={{
-        title: "Ziad Saab's CV - FullStack Consultant",
-        description: "Fullstack Consultant Ziad Saab's résumé in PDF format",
+        title: "Ziad Saab's CV - ziadmtl.dev",
+        description: "Fullstack Dev Ziad Saab's résumé in PDF format",
       }}
     >
       <div className="max-w-5xl mx-auto" id={DIV_ID} />
