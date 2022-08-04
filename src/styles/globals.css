@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Martel Sans-fallback";
+    size-adjust: 107.66%;
+    src: local("Arial");
+}
+
 html,
 body {
   @apply bg-slate-900 text-slate-100;
   padding: 0;
   margin: 0;
-  font-family: 'Martel Sans', 'sans-serif';
+  font-family: "Martel Sans", "Martel Sans-fallback", sans-serif;
   font-weight: 100;
+  line-height: 1.5;
 }
 
 h1,h2,h3,h4,h5,h6, [role=doc-subtitle] {
