@@ -28,7 +28,8 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
             <p role="doc-subtitle">Fullstack Dev & Teacher 🔥</p>
             <p className="my-4">
               I&apos;m a fullstack dev and teacher from Montreal,
-              Canada 🇨🇦. I have lots of experience, and so much to learn 🤓
+              Canada 🇨🇦
+              <br />I have lots of experience, and so much to learn 🤓
             </p>
             <p className="my-4">
               I co-founded Montreal&apos;s first fullstack web development
